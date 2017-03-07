@@ -1,0 +1,42 @@
+{
+    "name": "zertex/yii2-zx-ckeditor",
+    "description": "CKEditor for Yii2.",
+    "type": "yii2-extension",
+    "keywords": [
+        "zertex",
+        "yii",
+        "yii2",
+        "yii 2",
+        "extension",
+        "wysiwyg",
+        "ckeditor"
+    ],
+    "homepage": "http://zertex.ru",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Zertex Media",
+            "email": "info@zertex.ru",
+            "homepage": "http://zertex.ru",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/zertex/yii2-zx-ckeditor/issues",
+        "source": "https://github.com/zertex/yii2-zx-ckeditor"
+    },
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "ckeditor/ckeditor": "^4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "zertex\\ckeditor\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
