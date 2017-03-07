@@ -11,12 +11,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require zertex/yii2-zx-ckeditor
+composer require zertex/yii2-zx-ckeditor "dev-master"
 ```
 or add
 
 ```json
-"zertex/yii2-zx-ckeditor" : "*"
+"zertex/yii2-zx-ckeditor" : "dev-master"
 ```
 
 to the require section of your application's `composer.json` file.
